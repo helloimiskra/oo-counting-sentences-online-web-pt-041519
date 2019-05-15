@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.strip /[:punct:]/
+    self.strip
     binding.pry
 
   end
